@@ -8,13 +8,13 @@ import { RegisterComponent} from "./components/register/register.component";
 import {LogoutbuttonComponent} from "./components/logoutbutton/logoutbutton.component";
 
 const routes: Routes = [
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
-  { path: 'dashboard',  component: DashboardComponent },
-  { path: 'profile', component: ProfileComponent },
-  { path: 'login',     component: LoginComponent },
-  { path :'logout',component:LogoutbuttonComponent},
-  { path :'register',component:RegisterComponent},
-  { path : '**', component : LoginComponent}
+  { path: '', redirectTo: '/dashboard'}
+  // { path: 'dashboard',  component: DashboardComponent },
+  // { path: 'profile', component: ProfileComponent },
+  // { path: 'login',     component: LoginComponent },
+  // { path :'logout',component:LogoutbuttonComponent},
+  // { path :'register',component:RegisterComponent},
+  // { path : '**', component : LoginComponent}
 ];
 
 @NgModule({
